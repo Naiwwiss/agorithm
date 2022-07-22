@@ -1,0 +1,25 @@
+ALGORITHM  Task2
+VAR s,i,j:INTEGER;
+ tem:string
+
+ tem:=false;
+   s:=0;
+ FOR i FROM 0 TO 5-1 STEP step  DO 
+
+  {
+
+  FOR j FROM 0 TO 5-1 STEP step  DO 
+      { if (set[i]=set1[j]) then
+        { tem=true;
+          break ;
+        
+        }
+      if (tem=true) then
+      {
+        s=s+set[i];
+      }
+      } 
+      end if
+  write(s)
+  End 
+   }
